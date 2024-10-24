@@ -11,4 +11,8 @@ printf("size of union: %zu\n",sizeof(d));
   printf("Enter the distance: ");
   scanf("%lf",&d.dis4);
   printf("The distance between two locations is: %lf",d.dis4);
+
+printf("\nEnter the distance: ");
+  scanf("%d",&d.dis1);
+  printf("The distance between two locations is: %d",d.dis1);
 }
