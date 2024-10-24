@@ -1,0 +1,14 @@
+#include<stdio.h>
+typedef union distance
+{ int dis1;
+  float dis2;
+ long dis3;
+  double dis4;
+}x;
+int main()
+{ x d;
+printf("size of union: %zu\n",sizeof(d));
+  printf("Enter the distance: ");
+  scanf("%lf",&d.dis4);
+  printf("The distance between two locations is: %lf",d.dis4);
+}
